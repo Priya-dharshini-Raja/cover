@@ -32,9 +32,126 @@ Publish the website in the LocalHost.
 
 ## PROGRAM:
 
+```
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport"
+        content="width=device-width,initial-scale=1.0">
+        <style>
+        
+        .bookpage{
+            width: 400px;
+            height: 600px;
+            color:white;
+            margin-left: auto;
+            margin-right: auto;
+            padding:20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-image: url('bookcover.png');
+            background-size: cover;
+        }
+
+        .insight{
+            color:rgb(13, 6, 6) ;
+
+        }
+
+        .hrstyle{
+            width: 100px;
+        }
+
+        .author{
+            color: blue;
+            display: inline;
+            position: relative;
+            color: rgb(42, 6, 245);
+            top: 200px;
+
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: medium;
+        }
+        .booktitle{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: larger;
+            text-align: center;
+            position: relative;
+            top: 50px;
+        }
+
+        .id{
+            width: 400px;
+            position: relative;
+            top: 180px;
+
+        }
+
+        .pub{
+            font-size: large;
+            position: relative;
+            top: 100px;
+            left: 300px;
+        }
+        .ed{
+            color: blue;
+            font-size: medium;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            position: relative;
+            top: 120px;
+
+        }
+        .subtitle{
+            font-family: Tahoma;
+            font-size: large;
+            position: relative;
+            top: 50px;
+        }
+        .mypic{
+            position: relative;
+            top: 290px;
+            left: 260px;
+            width: 100px;
+            height: 100px;
+            background-size: cover;
+        }
+        </style>
+        <title>Book Cover Page</title>
+    </head>
+    <body>
+        <div class="bookpage">
+            <div class="EXPERT INSIGHT">
+                SEC INSIGHT
+            </div>
+            <div class="hrstyle">
+                <hr style="color: rgb(10, 10, 10);">
+            </div>
+            <div class="booktitle">
+                <h1>FULL STACK WEB DEVELOPMENT</h1>
+            </div>
+            <div class="subtitle">
+              the comprehensive guide
+            </div>
+            
+            <div class="id">
+                <hr style="color:rgb(10, 10, 10);">
+            </div>
+            <div class="author">
+                <p><b>PRIYADHARSHINI</b></p>
+            </div>
+            <div class="pub">
+                SEC
+            </div>
+            <div class="ed">
+                <b>Third Edition</b>
+            </div>
+        </div>
+    </body>
+</html>
+```
+
 
 ## OUTPUT:
-
+![OUTPUT IMAGE](https://github.com/Priya-dharshini-Raja/cover/assets/148514803/1cbfbaca-b6be-49ce-8605-951d23fca1f0)
 
 ## RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
